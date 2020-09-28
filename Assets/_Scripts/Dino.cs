@@ -9,6 +9,8 @@ public class Dino : MonoBehaviour
 
     public GameObject gameOver;
 
+    public Animator anim;
+
     int fuerza;
 
     // Start is called before the first frame update
@@ -18,6 +20,7 @@ public class Dino : MonoBehaviour
         Time.timeScale = 1;
         this.enabled = false;
         Obstaculo.VelocidadExtra = 0;
+        anim.StopPlayback();
     }
 
     // Update is called once per frame
@@ -26,13 +29,14 @@ public class Dino : MonoBehaviour
         // 0 = boton izquierdo
         // 1 = boton derecho
         // 2 = boton central.
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) | Input.GetKey("space"))
         {
             rb.velocity = Vector2.up * fuerza;
 
             // Desactiva el Dino (GameObject) en su totalidad
             // (para evitar un doble salto mientras está en el aire)
             this.enabled = false;
+            anim.StartPlayback();
         }
     }
 
@@ -40,6 +44,7 @@ public class Dino : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         this.enabled = true;
+        anim.StopPlayback();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
