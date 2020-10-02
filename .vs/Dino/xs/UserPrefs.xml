@@ -1,12 +1,12 @@
 ﻿<Properties StartupConfiguration="{0C7B4658-8421-1991-0A04-14E3FFB1A490}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_Scripts/Reiniciar.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_Scripts/Obstaculo.cs">
     <Files>
-      <File FileName="Assets/_Scripts/Obstaculo.cs" Line="15" Column="6" />
-      <File FileName="Assets/_Scripts/GeneradorObstaculos.cs" />
-      <File FileName="Assets/_Scripts/Dino.cs" />
-      <File FileName="Assets/_Scripts/Reiniciar.cs" Line="12" Column="6" />
-      <File FileName="Assets/_Scripts/Contador.cs" Line="23" Column="6" />
-      <File FileName="Assets/_Scripts/Init.cs" Line="1" Column="1" />
+      <File FileName="Assets/_Scripts/Obstaculo.cs" Line="20" Column="39" />
+      <File FileName="Assets/_Scripts/GeneradorObstaculos.cs" Line="1" Column="1" />
+      <File FileName="Assets/_Scripts/Dino.cs" Line="16" Column="50" />
+      <File FileName="Assets/_Scripts/Reiniciar.cs" />
+      <File FileName="Assets/_Scripts/Contador.cs" />
+      <File FileName="Assets/_Scripts/Init.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,7 +14,7 @@
           <Node name="Dino" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="_Scripts" expanded="True">
-                <Node name="Reiniciar.cs" selected="True" />
+                <Node name="Obstaculo.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -24,7 +24,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="3fe3fd0c-903a-4959-adb3-22e985506c00" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="48969621-fa7e-4657-859c-ada05745746c" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
