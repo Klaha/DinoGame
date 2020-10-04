@@ -8,6 +8,7 @@ public class GeneradorObstaculos : MonoBehaviour
     // De esta manera, la asignación se hace desde el inspector.
     // public GameObject prefabCactus;
     public GameObject[] prefabCactus;
+    public GameObject bullet;
 
     // Start is called before the first frame update
     void Start()
@@ -18,7 +19,7 @@ public class GeneradorObstaculos : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     void Generar()

@@ -16,6 +16,9 @@ public class HiScore : MonoBehaviour
         if (File.Exists(Application.persistentDataPath + "/HiScore.dat") == true)
         {
             Load();
+        } else
+        {
+            hiScoreText.text = "Hi Score: 0";
         }
     }
 

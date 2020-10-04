@@ -13,6 +13,8 @@ public class Dino : MonoBehaviour
 
     int fuerza;
 
+    public GameObject bullet;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +23,7 @@ public class Dino : MonoBehaviour
         this.enabled = false;
         Obstaculo.VelocidadExtra = 0;
         anim.StopPlayback();
+        Bullet.remainingBullets = 3;
     }
 
     // Update is called once per frame
@@ -37,6 +40,10 @@ public class Dino : MonoBehaviour
             // (para evitar un doble salto mientras está en el aire)
             this.enabled = false;
             anim.StartPlayback();
+        }
+        if (Input.GetKeyDown("x") && Bullet.remainingBullets >= 1)
+        {
+            Instantiate(bullet);
         }
     }
 
