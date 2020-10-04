@@ -8,6 +8,7 @@ public class Init : MonoBehaviour
 {
     public Button startButton;
     public AudioSource source;
+    public GameObject angryDino;
 
     private void Start()
     {
@@ -22,6 +23,7 @@ public class Init : MonoBehaviour
     IEnumerator InitCoroutine()
     {
         source.Play();
+        angryDino.SetActive(true);
         yield return new WaitForSeconds(2);
         SceneManager.LoadScene("JuegoDino");
     }
