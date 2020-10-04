@@ -66,6 +66,7 @@
     <Compile Include="Assets\_Scripts\Contador.cs" />
     <Compile Include="Assets\_Scripts\Dino.cs" />
     <Compile Include="Assets\_Scripts\GeneradorObstaculos.cs" />
+    <Compile Include="Assets\_Scripts\HiScore.cs" />
     <Compile Include="Assets\_Scripts\Init.cs" />
     <Compile Include="Assets\_Scripts\Obstaculo.cs" />
     <Compile Include="Assets\_Scripts\Reiniciar.cs" />

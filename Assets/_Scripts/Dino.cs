@@ -56,5 +56,6 @@ public class Dino : MonoBehaviour
         // >1 = Rapido
         // <1 = SlowMo
         Time.timeScale = 0;
+        HiScore.Save();
     }
 }

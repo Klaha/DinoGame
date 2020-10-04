@@ -24,7 +24,7 @@ public class GeneradorObstaculos : MonoBehaviour
     void Generar()
     {
         Obstaculo.VelocidadExtra += 0.02f;
-        int seleccionado = Random.Range(0, 2);
+        int seleccionado = Random.Range(0, 3);
         float tiempoAleatorio = Random.Range(1.5f, 3f);
 
         Instantiate(prefabCactus[seleccionado]);

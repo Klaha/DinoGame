@@ -14,7 +14,6 @@ public class Obstaculo : MonoBehaviour
     void Start()
     {
         velocidadX = 0.10f + VelocidadExtra;
-        Debug.Log("VelocidadX " + velocidadX);
     }
 
     // Update is called once per frame
