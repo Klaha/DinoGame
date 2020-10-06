@@ -456,7 +456,6 @@ MonoBehaviour:
   - {fileID: 4657676985436585222, guid: 77be890a662f043568ee2fb129d7f38a, type: 3}
   - {fileID: 4657676985436585222, guid: 9c3ec60e3030846ebb21386185a31ee3, type: 3}
   - {fileID: 510635375042736646, guid: 9fd1740c14faf453885f0c9726e7ce10, type: 3}
-  bullet: {fileID: 0}
 --- !u!4 &557636544
 Transform:
   m_ObjectHideFlags: 0
