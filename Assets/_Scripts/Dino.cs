@@ -18,7 +18,7 @@ public class Dino : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        fuerza = 12;
+        fuerza = 17;
         Time.timeScale = 1;
         this.enabled = false;
         Obstaculo.VelocidadExtra = 0;

@@ -8,7 +8,6 @@ public class GeneradorObstaculos : MonoBehaviour
     // De esta manera, la asignación se hace desde el inspector.
     // public GameObject prefabCactus;
     public GameObject[] prefabCactus;
-    public GameObject bullet;
 
     // Start is called before the first frame update
     void Start()
@@ -26,7 +25,7 @@ public class GeneradorObstaculos : MonoBehaviour
     {
         Obstaculo.VelocidadExtra += 0.02f;
         int seleccionado = Random.Range(0, 3);
-        float tiempoAleatorio = Random.Range(1.5f, 3f);
+        float tiempoAleatorio = Random.Range(2f, 3f);
 
         Instantiate(prefabCactus[seleccionado]);
         Invoke("Generar", tiempoAleatorio);
